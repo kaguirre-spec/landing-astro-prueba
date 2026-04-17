@@ -30,10 +30,7 @@ jobs:
 
       - name: Run tests
         run: npm run test:ci
-
-      - name: Run tests
-        run: npm run lint
-  lint:
+  Lint:
     name: mi segundo workflow test
     runs-on: ubuntu-latest
     steps:
