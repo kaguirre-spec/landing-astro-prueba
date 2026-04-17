@@ -10,6 +10,8 @@ on:
     branches:
       - main
 
+
+
 jobs:
   Test:
     name: mi primer workflow test
@@ -28,3 +30,6 @@ jobs:
 
       - name: Run tests
         run: npm run test:ci
+
+      - name: Run tests
+        run: npm run lint
